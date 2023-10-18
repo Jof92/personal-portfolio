@@ -1,0 +1,93 @@
+
+.body1 {
+    
+    min-height: 50vh;
+    min-width: 80vh;
+    margin: 0 0 30px 0;
+    
+}
+
+.neon-rings {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    
+}
+
+.neon-ring {
+    width: 100%;
+    height: 100%;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    animation: rotate 6s linear infinite, color-change 2s linear infinite;
+    padding: 2px;
+}
+
+.inner-ring {    
+    animation: inner-rotate 6s linear infinite, color-change 8s  infinite;
+    box-shadow: 0 0 60px rgba(0, 255, 251, 0.7), 0 0 40px rgb(255, 26, 156), 0 0 20px rgb(17, 249, 125);
+}
+
+
+.image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+   
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes inner-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes outer-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes color-change {
+    0%, 100% {
+        border-color: #03A9F4;
+    }
+    30% {
+        border-color: #E91E63;
+    }
+
+    50%{
+        border-color: #00FF99;
+    }
+
+}
+
