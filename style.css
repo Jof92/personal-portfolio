@@ -881,6 +881,16 @@ body {
 
 @media (max-width: 768px) {
 
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'poppins', sans-serif;
+        color: #ededed;
+        background: rgb(2, 2, 72);
+        overflow-x: hidden;
+      }
+
     .header{
         padding: 0 10px 0px 10px;
         display: inline-block;
