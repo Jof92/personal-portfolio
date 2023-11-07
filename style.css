@@ -883,6 +883,7 @@ body {
     .header{
         padding: 0 10px 0px 10px;
         display: inline-block;
+        position: relative;
     }
 
     .resposive-position{
@@ -903,7 +904,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 5px 5px;
+        padding: 5px 0;
 
     }
     .home{
