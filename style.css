@@ -9,6 +9,8 @@ body {
     color: #ededed;
     background:  rgb(2, 2, 72);;
     overflow-x: hidden ;
+    width: 100%; /* Defina a largura do contêiner para 100% */
+    max-width: 100%; 
 }
 
 .header {
