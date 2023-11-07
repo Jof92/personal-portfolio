@@ -9,10 +9,7 @@ body {
     color: #ededed;
     background:  rgb(2, 2, 72);;
     overflow-x: hidden ;
-    width: 100%; /* Defina a largura do contêiner para 100% */
-    max-width: 100%; 
-    margin: 0; /* Remova a margem padrão do corpo */
-  padding: 0;
+    
 }
 
 .header {
@@ -1020,5 +1017,10 @@ body {
 
     .contact {     
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    body {
+        overflow-x:auto ;
+        
     }
 }
