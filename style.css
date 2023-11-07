@@ -11,6 +11,8 @@ body {
     overflow-x: hidden ;
     width: 100%; /* Defina a largura do contêiner para 100% */
     max-width: 100%; 
+    margin: 0; /* Remova a margem padrão do corpo */
+  padding: 0;
 }
 
 .header {
