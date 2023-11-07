@@ -877,3 +877,143 @@ body {
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+
+    .header{
+        padding: 0 10px 0px 10px;
+        display: inline-block;
+    }
+
+    .resposive-position{
+        position: absolute;
+        top: 5px;
+        right: 1em;
+    }
+
+    .navbar-mar{
+        margin: 0 1px;
+    }
+    .navbar a{
+        font-size: 1em;
+        margin: 0 10px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 5px;
+
+    }
+    .home{
+        flex-direction: column-reverse;
+        margin: 0 0 30px 0;
+        height: 105vh;
+    }
+
+    .home-content {
+        padding-top: 50px;
+    }
+    .home-content h3 {
+        font-size: 20px;
+    }
+    .home-content h1 {
+        font-size: 38px;
+    }
+    .home-content p {
+        font-size: 1em;
+    }
+    .home-content h3:nth-of-type(2) {
+        margin-bottom: 20px;
+    }
+    .circle{
+        position: absolute;
+        left: 27%;
+        top: 13%;
+        margin-bottom: 30px;       
+    }
+    .neon-rings .neon-ring {
+        width: 10em;
+        height: 10em;
+        position: relative;
+        box-sizing: content-box;
+        margin-bottom: 20px;        
+    }
+
+    .about {
+        display: inline;
+
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text {
+       margin: 0 10px;
+       text-align: justify;
+    }
+
+    .about-text h2{
+        text-align: center;
+    }
+
+    .about-text h4{
+        text-align: center;
+    }
+
+    .about-text p{
+        padding-right: 0;
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    .sub-title {
+        margin-top: 50px;
+    }
+    .services-list div p {
+        font-size: 18px;
+    }
+
+    .container1 {
+        padding: 75px 10px;
+        margin:10px;
+    }
+
+    .main-text {
+        margin-top: 100px;
+    }
+
+
+    .portfolio-content {
+        grid-template-columns: repeat(auto-fit, minmax(calc(90% - 20px), 1fr));
+
+  }
+
+    .portfolio-content .row:nth-last-child(-n+3) {
+        display: none;
+    }
+
+    .layer {
+        padding: 0 10px;
+    }
+    .layer i {
+        margin-top: 2px;
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+        border-radius: 5px;
+    }
+
+    .layer h5 {
+        margin-bottom: 5px;
+    }
+
+    .contact {     
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
