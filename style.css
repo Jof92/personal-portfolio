@@ -945,10 +945,9 @@ body {
     }
 
     .about {
-        display: inline;
-   
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
+        display: grid;   
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
 
     }
 
