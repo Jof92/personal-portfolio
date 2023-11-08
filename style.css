@@ -972,6 +972,7 @@ body {
 
     .container {
         padding: 30px;
+        max-width: none; 
     }
 
     .sub-title {
@@ -993,6 +994,7 @@ body {
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit, minmax(calc(90% - 20px), 1fr));
+        width: 100%;
 
   }
 
@@ -1018,7 +1020,7 @@ body {
     .contact {     
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
     .header, .about, .container {
         width: 100%;
       }
