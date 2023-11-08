@@ -945,9 +945,7 @@ body {
     }
 
     .about {
-        display: grid;   
-        grid-template-columns: 1fr 1fr;
-        align-items: center;
+        display: inline;   
 
     }
 
@@ -1022,8 +1020,4 @@ body {
     .contact {     
         grid-template-columns: repeat(1, 1fr);
     }
-
-    .header, .about, .container {
-        width: 100%;
-      }
 }
