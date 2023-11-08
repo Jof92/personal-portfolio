@@ -7,9 +7,9 @@
     
 }
 
-.neon-rings {
-    width: 450px;
-    height: 450px;
+.neon-rings { /*alterado*/
+    width: 25em;
+    height: 25em;
     position: relative;
     
 }

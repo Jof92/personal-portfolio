@@ -943,6 +943,16 @@ body {
         box-sizing: content-box;
         margin-bottom: 20px;        
     }
+    .body1 { 
+        min-height: 20vh;
+        min-width: 40vh;
+        
+    }/*a partir daqui*/
+
+    .neon-rings {
+        width: 190px;
+    }/*até aqui*/
+    
 
     .about {
         display: inline;   
