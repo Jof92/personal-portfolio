@@ -931,10 +931,12 @@ body {
         margin-bottom: 20px;
     }
     .circle{
-        position: absolute;
+
+        display: none;
+        /*position: absolute;
         left: 27%;
         top: 13%;
-        margin-bottom: 30px;       
+        margin-bottom: 30px;  */     
     }
     .neon-rings .neon-ring {
         width: 10em;
@@ -944,8 +946,7 @@ body {
         margin-bottom: 20px;        
     }
     .body1 { 
-        min-height: 20vh;
-        min-width: 40vh;
+        display: none;
         
     }/*a partir daqui*/
 
