@@ -881,7 +881,7 @@ body {
 
 @media (max-width: 768px) {
 
-    .body{
+    body{
         width: 100%;
     }
 
