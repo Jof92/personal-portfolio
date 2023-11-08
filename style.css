@@ -881,9 +881,6 @@ body {
 
 @media (max-width: 768px) {
 
-    body{
-        width: 100%;
-    }
 
     .header{
         padding: 0 10px 0px 10px;
@@ -949,6 +946,9 @@ body {
 
     .about {
         display: inline;
+   
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 
     }
 
@@ -976,7 +976,6 @@ body {
 
     .container {
         padding: 30px;
-        max-width: none; 
     }
 
     .sub-title {
@@ -998,7 +997,7 @@ body {
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit, minmax(calc(90% - 20px), 1fr));
-        width: 100%;
+
 
   }
 
