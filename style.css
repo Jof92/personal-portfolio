@@ -885,7 +885,7 @@ body {
     .header{
         padding: 0 10px 0px 10px;
         display: inline-block;
-        position: relative;
+        
     }
 
     .resposive-position{
@@ -962,8 +962,8 @@ body {
 
     .about-img img{       
         margin-left: 0;
-        margin-bottom: 60px;
-        width: 70%;
+        margin-bottom: 100px;
+        width: 80%;
     
     }
 
