@@ -885,7 +885,6 @@ body {
     .header{
         padding: 0 10px 0px 10px;
         display: inline-block;
-        
     }
 
     .resposive-position{
@@ -1033,5 +1032,14 @@ body {
 
     .contact {     
         grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
     }
+    .contact-text h2{
+        font-size: 70px;
+    }
+
+    .contact-form{
+        text-align: center;
+    }
+    
 }
