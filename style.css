@@ -809,6 +809,7 @@ body {
     background: #051129;
     font-weight: 300;
     margin-top: 70px;
+    position: relative;
 
 }
 
@@ -885,7 +886,6 @@ body {
     .header{
         padding: 0 10px 0px 10px;
         display: inline-block;
-        position: relative;
     }
 
     .resposive-position{
