@@ -831,6 +831,11 @@ body {
     border-radius: 0.5rem;
 }
 
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}   
+
 
 
 
@@ -1000,6 +1005,7 @@ body {
     .services-list div p {
         font-size: 18px;
     }
+
 
     .container1 {
         padding: 75px 10px;
