@@ -910,7 +910,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 5px 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
 
     }
     .home{
