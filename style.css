@@ -893,8 +893,12 @@ a:-webkit-any-link {
 
 
     .header{
-        padding: 0 10px 0px 10px;
+        padding: 0 0 0 0;
         display: inline-block;
+    }
+
+    .logo{
+        margin-left: 10px;
     }
 
     .resposive-position{
